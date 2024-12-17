@@ -1,3 +1,7 @@
+/*
+Future work - parse to json the response
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"
@@ -149,9 +153,9 @@ int main()
     struct tcp_pcb *server_pcb = tcp_new();
     tcp_bind(server_pcb, IP_ADDR_ANY, 80);
     server_pcb = tcp_listen(server_pcb);
-    tcp_accept(server_pcb, http_server_accept);
+    tcp_accept(server_pcb, http_server_accept); 
 
-    printf("HTTP server running on port 80\n");
+    printf("HTTP server running on port 80\n"); // default
 
 
     while (true) 
