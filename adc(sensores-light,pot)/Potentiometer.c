@@ -1,3 +1,7 @@
+/*
+usage of potentiometer for project with brightness
+*/
+
 #include "hardware/adc.h"
 #include "pico/stdlib.h"
 #include <stdio.h>

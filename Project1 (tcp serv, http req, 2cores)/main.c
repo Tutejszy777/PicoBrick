@@ -1,5 +1,7 @@
 /*
 Future work - parse to json the response
+
+connected to wifi, created tcp server, accepts any http request, launching second core for simultaneous action(led and buzzer)
 */
 
 #include <stdio.h>

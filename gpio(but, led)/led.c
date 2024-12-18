@@ -1,3 +1,7 @@
+/*
+init led , on and off
+*/
+
 #include <stdio.h>
 #include "pico/stdlib.h"
 

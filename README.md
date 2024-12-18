@@ -1,5 +1,5 @@
 # PicoBrick
-Some of the project ideas are taken from book
+Some of the project ideas are taken from book.
 Project's from PicoBricks Project Book. Codes written in Visual studio code (extension: Raspberry Pi Pico Project)
 
 check the pico board

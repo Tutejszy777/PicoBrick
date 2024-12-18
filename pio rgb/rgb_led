@@ -1,3 +1,7 @@
+/*
+runs a rgb led and switches colors
+*/
+
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "ws2812.pio.h" // file in same folder via 
