@@ -1,5 +1,6 @@
 /*
-Future work connect thermometer and display info to OLED display
+Future work connect thermometer(IT IS DONE THE SENSOR IS BROKEN SO THE DISPLAY IS IN DIFFERENT FILE NAMED : I2C) 
+and display info to OLED display
 brightness of rgb controled used potentiometer and the color depending on the light emerged on light sensor
 */
 #include <stdio.h>
